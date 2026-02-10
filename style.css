@@ -12,6 +12,11 @@ body {
 .desktop {
       display: block;
     }
+.countdown{
+      display: block;
+    }
+
+
     .mobile {
       display: none;
     }
