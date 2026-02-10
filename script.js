@@ -79,13 +79,14 @@ const isMobile = window.innerWidth < 768;
 if (isMobile) {
   const unlockDate = new Date(Date.now() + 10000000000000).getTime();
 }
+else{
 
 
 // 🔒 TIME LOCK
 //const unlockDate = new Date("2026-02-14T00:00:00").getTime();
 //test
 const unlockDate = new Date(Date.now() + 5000).getTime();
-
+}
 const lock = document.getElementById("lock-container");
 const content = document.getElementById("content");
 const countdownEl = document.getElementById("countdown");
