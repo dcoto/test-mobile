@@ -9,28 +9,6 @@ body {
 }
 
 
-.desktop {
-      display: block;
-    }
-.countdown{
-      display: block;
-    }
-
-
-    .mobile {
-      display: none;
-    }
-
-    /* Cuando la pantalla es pequeña (móvil) */
-    @media (max-width: 768px) {
-      .desktop {
-        display: none;
-      }
-      .mobile {
-        display: block;
-      }
-    }
-
 #lock-container {
   position: fixed;
   inset: 0;
